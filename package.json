@@ -1,0 +1,16 @@
+{
+  "name": "cdn77-frontkon-workshop-cachovani",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "run-server": "node server/server.js",
+    "build-and-run": "npm run build && npm run run-server"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  }
+}
