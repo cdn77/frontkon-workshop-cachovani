@@ -104,7 +104,7 @@ createServer(async (req, res) => {
     const file = await prepareFile(req.url);
     if (/articles.*\.js$/.test(req.url)) {
       // make the articles chunk frustratingly slow
-      await sleep(5);
+      await sleep(4);
     } else if (req.url && !req.url.endsWith("/") && !/\.$/.test(req.url)) {
       await sleep(2, 2);
     } else {
